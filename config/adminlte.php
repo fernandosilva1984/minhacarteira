@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Gestor de Investimentos',
+    'title' => 'Minha Carteira',
 
     'title_prefix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Investimentos</b>',
+    'logo' => '<b>Minha Carteira</b>',
 
     'logo_mini' => '<i class="fa fa-fw fa-usd"></i>',
 

@@ -1,4 +1,4 @@
-@extends('adminlte::master')
+@extends('adminlte::page')
 
 @section('adminlte_css')
     @yield('css')
@@ -64,7 +64,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="title"><i class="fas fa-chess-queen"></i> Gestor de Investimentos</span>
+                    <span class="title"><i class="fas fa-chess-queen"></i> Minha Carteira</span>
                     <div class="box-tools pull-right">
                         <a href="{{ route('login') }}" class="btn btn-danger"> <i class="fas fa-lock"></i>&nbsp;&nbsp;&nbsp;Área restrita </a>
                     </div>
