@@ -110,139 +110,148 @@ return [
     'menu' => [
         // 'menu cadastrar',
          [
-             'text' => 'Cadastrar',
+             'text' => 'Carteiras',
              'url' => '#',
-             'icon' => 'plus',
+             'icon' => 'briefcase',
              'submenu' => [
                  [
-                     'text' => 'Carteira',
+                     'text' => 'Cadastrar',
                      'url' => '#',
-                     'icon' => 'briefcase',
+                     'icon' => 'plus',
                  ],
                  [
-                    'text' => 'FII',
+                    'text' => 'Listar',
                     'url' => '#',
-                    'icon' => 'building-o',
+                    'icon' => 'list',
                 ],
                 [
-                    'text' => 'Rendimento',
+                    'text' => 'Grafico 1',
                     'url' => '#',
-                    'icon' => 'money',
+                    'icon' => 'list',
                 ],
                 [
-                    'text' => 'Movimentação',
+                    'text' => 'Relatório 1',
                     'url' => '#',
-                    'icon' => 'user',
+                    'icon' => 'print',
                 ],
-                [
-                    'text' => 'Renda Fixa',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
+                
          ],
      ],
          [
-             'text' => 'Listar',
+             'text' => 'FIIs',
              'url'  => '#',
-             'icon' => 'list',
+             'icon' => 'building-o',
              'submenu' => [
                 [
-                    'text' => 'Carteira',
+                    'text' => 'Cadastrar',
                     'url' => '#',
-                    'icon' => 'user',
+                    'icon' => 'plus',
                 ],
                 [
-                   'text' => 'FII',
+                    'text' => 'Movimentações',
+                    'url' => '#',
+                    'icon' => 'list'
+                ],
+                [
+                    'text' => 'Rendimentos',
+                    'url' => '#',
+                    'icon' => 'list'
+                ],
+                [
+                   'text' => 'Listar',
                    'url' => '#',
-                   'icon' => 'user',
+                   'icon' => 'list',
                ],
                [
-                   'text' => 'Rendimento',
+                'text' => 'Graficos',
+                'url' => '#',
+                'icon' => 'list',
+            ],
+                             [
+                   'text' => 'Relatório 1',
                    'url' => '#',
-                   'icon' => 'user',
+                   'icon' => 'print',
+               ],
+                
+             ],
+         
+            // 'can'  => 'manage-blog',
+         ],
+         [
+             'text' => 'Renda Fixa',
+             'url'  => '#',
+             'icon' => 'money',
+             'submenu' => [
+                [
+                    'text' => 'Cadastrar',
+                    'url' => '#',
+                    'icon' => 'plus',
+                ],
+                [
+                    'text' => 'Resgatar',
+                    'url' => '#',
+                    'icon' => 'list'
+                ],
+                [
+                   'text' => 'Listar',
+                   'url' => '#',
+                   'icon' => 'list',
                ],
                [
-                   'text' => 'Movimentação',
-                   'url' => '#',
-                   'icon' => 'user',
-               ],
+                'text' => 'Gráficos',
+                'url' => '#',
+                'icon' => 'list'
+            ],
                [
-                   'text' => 'Renda Fixa',
+                   'text' => 'Relatório 1',
                    'url' => '#',
-                   'icon' => 'user',
+                   'icon' => 'print',
                ],
              ],
          
             // 'can'  => 'manage-blog',
          ],
          [
-             'text' => 'Relatórios',
-             'url'  => '#',
-             'icon' => 'print',
-             'submenu' => [
-                 [
-                     'text' => 'Carteira',
-                     'url' => '#',
-                     'icon' => 'user',
-                 ],
-                 [
-                    'text' => 'FII',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
-                [
-                    'text' => 'Rendimento',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
-                [
-                    'text' => 'Movimentação',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
-                [
-                    'text' => 'Renda Fixa',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
-             ],
-         
-            // 'can'  => 'manage-blog',
-         ],
-         [
-            'text' => 'Gráficos',
+            'text' => 'Poupança',
             'url'  => '#',
-            'icon' => 'area-chart',
+            'icon' => 'money',
             'submenu' => [
-                [
-                    'text' => 'Carteira',
-                    'url' => '#',
-                    'icon' => 'user',
-                ],
-                [
-                   'text' => 'FII',
-                   'url' => '#',
-                   'icon' => 'user',
-               ],
                [
-                   'text' => 'Rendimento',
+                   'text' => 'Cadastrar',
                    'url' => '#',
-                   'icon' => 'user',
+                   'icon' => 'plus',
                ],
+               
                [
-                   'text' => 'Movimentação',
-                   'url' => '#',
-                   'icon' => 'user',
-               ],
+                'text' => 'Aplicar',
+                'url' => '#',
+                'icon' => 'list',
+            ],
+            [
+                'text' => 'Resgatar',
+                'url' => '#',
+                'icon' => 'list'
+            ],
                [
-                   'text' => 'Renda Fixa',
-                   'url' => '#',
-                   'icon' => 'user',
-               ],
+                  'text' => 'Listar',
+                  'url' => '#',
+                  'icon' => 'list',
+              ],
+              [
+                'text' => 'Gráficos',
+                'url' => '#',
+                'icon' => 'list',
+            ],
+                          [
+                  'text' => 'Relatório 1',
+                  'url' => '#',
+                  'icon' => 'print',
+              ],
             ],
         
            // 'can'  => 'manage-blog',
         ],
+         
          [
              'text' => 'Gerência',
              'url'  => '#',
