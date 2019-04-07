@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Minha Carteira</b>',
+    'logo' => '<b>Minha</b> Carteira',
 
     'logo_mini' => '<i class="fa fa-fw fa-usd"></i>',
 
