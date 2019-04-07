@@ -35,12 +35,9 @@ header .row {
 
 }
 
-#content h1 {
-    opacity: 8.0;
-}
-
 #content p {
-    opacity: 1.0;
+    text-align: justify; 
+
 }
 
 footer {
